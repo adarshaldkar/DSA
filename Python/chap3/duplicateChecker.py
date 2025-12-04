@@ -83,3 +83,21 @@ print(f"Method 2 (List comprehension): {result2} unique elements")
 nums3 = test_nums.copy()
 result3 = removeDuplicates_pythonic3(nums3)
 print(f"Method 3 (Two pointers): {result3} unique elements")
+
+
+# class Solution:
+#     def removeDuplicates(self, nums: List[int]) -> int:
+#         a=0
+#         unique=1
+#         cm=1
+#         n=len(nums)
+
+#         while(cm<n):
+#             if(nums[cm] != nums[cm-1]):
+#                 a+=1
+#                 nums[a]=nums[cm]
+#                 unique+=1
+#             cm+=1
+#         return unique
+        
+#alternative methord
