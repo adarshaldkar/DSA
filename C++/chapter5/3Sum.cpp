@@ -26,7 +26,8 @@ int main(){
     while(left<right){
         int sum=nums[left]+nums[right];
         if(sum==target){
-            res.push_back({nums[i],nums[left],nums[right]});
+            vector<int> triplet = { nums[i], nums[left], nums[right] };
+res.push_back(triplet);
             while(left<right && nums[left]==nums[left+1]){
                 left++;
             }

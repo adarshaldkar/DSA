@@ -2,6 +2,7 @@
 #include<stdio.h>
 #include<iostream>
 using namespace std;
+#include<climits>
 
 int main(){
 int marks[] = {15 , 10 , 20 , 5 , 4};
