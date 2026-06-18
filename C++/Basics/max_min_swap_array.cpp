@@ -2,7 +2,6 @@
 using namespace std;
 
 void swapMaxMin(int arr[], int n) {
-    if (n < 2) return;  
     
     int minIndex = 0;
     int maxIndex = 0;
